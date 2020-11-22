@@ -4,9 +4,9 @@ credentials:
     - credentials:
       - usernamePassword:
           id: "bitbucket-tf"
-          password: "{AQAAABAAAAAgxW7rT3ERdxFHiIcFOxSniPI+045N7LBG2j+8FqZzYXy18FCWNVSYfqahBZSYsNXg}"
+          password: "{<encrypted-password>}"
           scope: GLOBAL
-          username: "testing.factory"
+          username: "<username>"
 jenkins:
   agentProtocols:
   - "JNLP4-connect"
