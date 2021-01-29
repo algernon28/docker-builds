@@ -41,14 +41,6 @@ jenkins:
     - id: "default"
       url: "https://updates.jenkins.io/update-center.json"
 tool:
-  gradle:
-    installations:
-    - name: "Gradle 6.7"
-      properties:
-      - installSource:
-          installers:
-          - gradleInstaller:
-              id: "6.7"
   groovy:
     installations:
     - name: "Groovy 3.0.6"
