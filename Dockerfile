@@ -1,4 +1,5 @@
 FROM jenkins/jenkins:lts-alpine
+LABEL maintainer="amissinato@gmail.com"
 ENV JENKINS_USER admin
 ENV JENKINS_PASS billy
 USER root
