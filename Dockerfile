@@ -21,5 +21,5 @@ COPY default-user.groovy /usr/share/jenkins/ref/init.groovy.d/
 RUN apk update && apk add openrc && apk add docker && addgroup jenkins docker && rc-update add docker boot
 RUN jenkins-plugin-cli --plugin-file /usr/share/jenkins/ref/plugins.txt
 
-USER jenkins
+#USER jenkins
 
