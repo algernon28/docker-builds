@@ -8,6 +8,9 @@ ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
 
 #Preinstall the plugins
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
+
+COPY jenkins.yaml /home/jenkins.yaml
+
 #The configuration-as-code plugin will look for this variable in order to load the configuration
 ENV CASC_JENKINS_CONFIG="/home/jenkins.yaml"
 # copy default-user.groovy under the init.groovy.d directory 
