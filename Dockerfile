@@ -5,10 +5,6 @@ ENV JENKINS_PASS billy
 # Skip initial setup
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
 
-# copy default-user.groovy under the init.groovy.d directory 
-# where to setup the default admin user and password
-COPY default-user.groovy /usr/share/jenkins/ref/init.groovy.d/
-
 #Preinstall the plugins
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 #The configuration-as-code plugin will look for this variable in order to load the configuration
@@ -21,3 +17,6 @@ RUN apk update && apk add openrc && apk add docker && addgroup jenkins docker &&
 RUN jenkins-plugin-cli --plugin-file /usr/share/jenkins/ref/plugins.txt
 
 USER jenkins
+# copy default-user.groovy under the init.groovy.d directory 
+# where to setup the default admin user and password
+COPY default-user.groovy /usr/share/jenkins/ref/init.groovy.d/
