@@ -1,43 +1,150 @@
-dashboard-view
-cloudbees-folder
-antisamy-markup-formatter
-build-name-setter
-build-timeout
-configuration-as-code
-config-file-provider
-credentials-binding
-rebuild
-embeddable-build-status
-throttle-concurrents
-ssh-agent
-nodejs
-workflow-aggregator
-github-branch-source
-pipeline-github-lib
-pipeline-stage-view
-conditional-buildstep
-copyartifact
-bitbucket
-git-parameter
-github
-ssh-slaves
-matrix-auth
-pam-auth
-ldap
-role-strategy
-ssh
-adoptopenjdk
-groovy
-workflow-cps-global-lib-http
-bitbucket
-blueocean
-docker-plugin
-docker-build-step
-docker-compose-build-step
-docker-workflow
-jdk-tool
-JDK_Parameter_Plugin
-pipeline-timeline
-pipeline-config-history
-remote-file
-concurrent-step
+ace-editor | 1.1 | JavaScript GUI Lib: ACE Editor bundle plugin
+adoptopenjdk | 1.3 | AdoptOpenJDK installer Plugin
+ant | 1.11 | Ant Plugin
+antisamy-markup-formatter | 2.1 | OWASP Markup Formatter Plugin
+apache-httpcomponents-client-4-api | 4.5.13-1.0 | Apache HttpComponents Client 4.x API Plugin
+authentication-tokens | 1.4 | Authentication Tokens API Plugin
+bitbucket | 1.1.27 | Bitbucket Plugin
+bitbucket-push-and-pull-request | 2.6.4 | Bitbucket Push and Pull Request Plugin
+blueocean | 1.24.4 | Blue Ocean
+blueocean-autofavorite | 1.2.4 | Autofavorite for Blue Ocean
+blueocean-bitbucket-pipeline | 1.24.4 | Bitbucket Pipeline for Blue Ocean
+blueocean-commons | 1.24.4 | Common API for Blue Ocean
+blueocean-config | 1.24.4 | Config API for Blue Ocean
+blueocean-core-js | 1.24.4 | Blue Ocean Core JS
+blueocean-dashboard | 1.24.4 | Dashboard for Blue Ocean
+blueocean-display-url | 2.4.1 | Display URL for Blue Ocean
+blueocean-events | 1.24.4 | Events API for Blue Ocean
+blueocean-git-pipeline | 1.24.4 | Git Pipeline for Blue Ocean
+blueocean-github-pipeline | 1.24.4 | GitHub Pipeline for Blue Ocean
+blueocean-i18n | 1.24.4 | i18n for Blue Ocean
+blueocean-jwt | 1.24.4 | JWT for Blue Ocean
+blueocean-personalization | 1.24.4 | Personalization for Blue Ocean
+blueocean-pipeline-api-impl | 1.24.4 | Pipeline implementation for Blue Ocean
+blueocean-pipeline-editor | 1.24.4 | Blue Ocean Pipeline Editor
+blueocean-pipeline-scm-api | 1.24.4 | Pipeline SCM API for Blue Ocean
+blueocean-rest | 1.24.4 | REST API for Blue Ocean
+blueocean-rest-impl | 1.24.4 | REST Implementation for Blue Ocean
+blueocean-web | 1.24.4 | Web for Blue Ocean
+bootstrap4-api | 4.6.0-1 | Bootstrap 4 API Plugin
+bouncycastle-api | 2.18 | bouncycastle API Plugin
+branch-api | 2.6.2 | Branch API Plugin
+build-name-setter | 2.1.0 | Build Name and Description Setter
+build-timeout | 1.20 | Build Timeout
+build-timestamp | 1.0.3 | Build Timestamp Plugin
+checks-api | 1.3.0 | Checks API plugin
+cloudbees-bitbucket-branch-source | 2.9.7 | Bitbucket Branch Source Plugin
+cloudbees-folder | 6.15 | Folders Plugin
+command-launcher | 1.2 | Command Agent Launcher Plugin
+concurrent-step | 1.0.0 | Concurrent Step
+conditional-buildstep | 1.4.1 | Conditional BuildStep
+config-file-provider | 3.7.0 | Config File Provider Plugin
+configuration-as-code | 1.46 | Configuration as Code Plugin
+copyartifact | 1.46 | Copy Artifact Plugin
+credentials | 2.3.14 | Credentials Plugin
+credentials-binding | 1.24 | Credentials Binding Plugin
+dashboard-view | 2.14 | Dashboard View
+display-url-api | 2.3.4 | Display URL API
+docker-build-step | 2.6 | docker-build-step
+docker-commons | 1.17 | Docker Commons Plugin
+docker-compose-build-step | 1.0 | Docker Compose Build Step Plugin
+docker-java-api | 3.1.5.2 | Docker API Plugin
+docker-plugin | 1.2.2 | Docker plugin
+docker-workflow | 1.25 | Docker Pipeline
+durable-task | 1.35 | Durable Task Plugin
+echarts-api | 4.9.0-3 | ECharts API Plugin
+embeddable-build-status | 2.0.3 | Embeddable Build Status Plugin
+external-monitor-job | 1.7 | External Monitor Job Type Plugin
+favorite | 2.3.2 | Favorite
+font-awesome-api | 5.15.2-1 | Font Awesome API Plugin
+git | 4.5.2 | Git plugin
+git-client | 3.6.0 | Git client plugin
+git-parameter | 0.9.13 | Git Parameter Plug-In
+git-server | 1.9 | GIT server Plugin
+github | 1.32.0 | GitHub plugin
+github-api | 1.122 | GitHub API Plugin
+github-branch-source | 2.9.4 | GitHub Branch Source Plugin
+groovy | 2.3 | Groovy
+handlebars | 1.1.1 | JavaScript GUI Lib: Handlebars bundle plugin
+handy-uri-templates-2-api | 2.1.8-1.0 | Handy Uri Templates 2.x API Plugin
+htmlpublisher | 1.25 | HTML Publisher plugin
+jackson2-api | 2.12.1 | Jackson 2 API Plugin
+jacoco | 3.1.1 | JaCoCo plugin
+javadoc | 1.6 | Javadoc Plugin
+jaxb | 2.3.0.1 | JAXB plugin
+jdk-tool | 1.4 | Oracle Java SE Development Kit Installer Plugin
+JDK_Parameter_Plugin | 1.0 | JDK Parameter Plugin
+jenkins-design-language | 1.24.4 | Design Language
+jjwt-api | 0.11.2-7.a257d5ff5a6b | Java JSON Web Token (JJWT) Plugin
+job-dsl | 1.77 | Job DSL
+jquery | 1.12.4-1 | jQuery plugin
+jquery3-api | 3.5.1-2 | JQuery3 API Plugin
+jsch | 0.1.55.2 | JSch dependency plugin
+junit | 1.48 | JUnit Plugin
+ldap | 1.26 | LDAP Plugin
+lockable-resources | 2.10 | Lockable Resources plugin
+mailer | 1.32.1 | Mailer Plugin
+matrix-auth | 2.6.5 | Matrix Authorization Strategy Plugin
+matrix-project | 1.18 | Matrix Project Plugin
+maven-plugin | 3.8 | Maven Integration plugin
+mercurial | 2.12 | Mercurial plugin
+momentjs | 1.1.1 | JavaScript GUI Lib: Moment.js bundle plugin
+next-build-number | 1.6 | Next Build Number Plugin
+nodejs | 1.3.11 | NodeJS Plugin
+okhttp-api | 3.14.9 | OkHttp Plugin
+pam-auth | 1.6 | PAM Authentication plugin
+pipeline-build-step | 2.13 | Pipeline: Build Step
+pipeline-config-history | 1.6 | Pipeline Configuration History Plugin
+pipeline-github-lib | 1.0 | Pipeline: GitHub Groovy Libraries
+pipeline-graph-analysis | 1.10 | Pipeline Graph Analysis Plugin
+pipeline-input-step | 2.12 | Pipeline: Input Step
+pipeline-milestone-step | 1.3.2 | Pipeline: Milestone Step
+pipeline-model-api | 1.8.2 | Pipeline: Model API
+pipeline-model-definition | 1.8.2 | Pipeline: Declarative
+pipeline-model-extensions | 1.8.2 | Pipeline: Declarative Extension Points API
+pipeline-rest-api | 2.19 | Pipeline: REST API Plugin
+pipeline-stage-step | 2.5 | Pipeline: Stage Step
+pipeline-stage-tags-metadata | 1.8.2 | Pipeline: Stage Tags Metadata
+pipeline-stage-view | 2.19 | Pipeline: Stage View Plugin
+pipeline-timeline | 1.0.3 | Pipeline timeline
+plain-credentials | 1.7 | Plain Credentials Plugin
+plugin-util-api | 1.6.1 | Plugin Utilities API Plugin
+popper-api | 1.16.1-1 | Popper.js API Plugin
+publish-over | 0.22 | Infrastructure plugin for Publish Over X
+publish-over-ssh | 1.22 | Publish Over SSH
+pubsub-light | 1.13 | Pub-Sub "light" Bus
+purge-build-queue-plugin | 1.0 | Purge Build Queue Plugin
+purge-job-history | 1.6 | Purge Job History Plugin
+rebuild | 1.31 | Rebuilder
+remote-file | 1.13 | Remote Jenkinsfile Provider
+role-strategy | 3.1 | Role-based Authorization Strategy
+run-condition | 1.5 | Run Condition Plugin
+scm-api | 2.6.4 | SCM API Plugin
+scp | 1.8 | Hudson SCP publisher plugin
+script-security | 1.76 | Script Security Plugin
+snakeyaml-api | 1.27.0 | Snakeyaml API Plugin
+sonar | 2.13 | SonarQube Scanner for Jenkins
+sse-gateway | 1.24 | Server Sent Events (SSE) Gateway Plugin
+ssh | 2.6.1 | SSH plugin
+ssh-agent | 1.20 | SSH Agent Plugin
+ssh-credentials | 1.18.1 | SSH Credentials Plugin
+ssh-slaves | 1.31.5 | SSH Build Agents plugin
+structs | 1.20 | Structs Plugin
+throttle-concurrents | 2.1 | Throttle Concurrent Builds Plug-in
+timestamper | 1.11.8 | Timestamper
+token-macro | 2.13 | Token Macro Plugin
+trilead-api | 1.0.13 | Trilead API Plugin
+variant | 1.4 | Variant Plugin
+windows-slaves | 1.0 | Windows Slaves Plugin
+workflow-aggregator | 2.6 | Pipeline
+workflow-api | 2.41 | Pipeline: API
+workflow-basic-steps | 2.23 | Pipeline: Basic Steps
+workflow-cps | 2.87 | Pipeline: Groovy
+workflow-cps-global-lib | 2.17 | Pipeline: Shared Groovy Libraries
+workflow-cps-global-lib-http | 1.11.0 | Pipeline: Shared Groovy Libraries through HTTP retrieval
+workflow-durable-task-step | 2.37 | Pipeline: Nodes and Processes
+workflow-job | 2.40 | Pipeline: Job
+workflow-multibranch | 2.22 | Pipeline: Multibranch
+workflow-scm-step | 2.11 | Pipeline: SCM Step
+workflow-step-api | 2.23 | Pipeline: Step API
+workflow-support | 3.7 | Pipeline: Supporting APIs
