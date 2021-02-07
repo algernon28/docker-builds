@@ -22,7 +22,7 @@ jenkins:
         - favoriting:
             autofavoriteEnabled: true
         - mailer:
-            emailAddress: "jenkins.admin@spindox.it"
+            emailAddress: "jenkins.admin@email.com"
         - "favorite"
         - preferredProvider:
             providerId: "default"
